@@ -5,12 +5,12 @@ import { Link } from "react-scroll";
 
 const Approach = () => {
   return (
-    <div className="max-w-full min-h-screen bg-white text-[#141414] ">
+    <div className="md:max-w-full  min-h-screen bg-white text-[#141414] ">
       <div className="max-w-full min-h-screen flex flex-col items-center justify-center">
-        <h2 className=" my-6 text-4xl text-center">
+        <h2 className=" my-6 md:text-4xl w-[320px] md:max-w-full text-2xl text-center">
           Why You Should Choose TenderNet(Pty)Ltd?
         </h2>
-        <p className="text-lg mb-10 max-w-3xl text-center">
+        <p className="text-lg mb-10 md:max-w-3xl w-[320px] text-center">
           Ten<span className="text-[#ff0000]">d</span>erNet consists of
           experienced individuals who are eager to carry you until you're listed
           in <span className="text-[#ff0000]">Africa Forbes</span>.
@@ -80,11 +80,11 @@ const Approach = () => {
         </div>
         {/* Skilled Personel At Tendernet Ltd */}
         <div className="flex flex-col items-center py-10 space-y-4">
-          <h1 className="font-semibold text-2xl text-center">
+          <h1 className="font-semibold text-2xl text-center w-[320px] md:max-w-full">
             Skilled Personnels At Ten<span className="text-[#ff0000]">d</span>
             erNet(Pty)Ltd
           </h1>
-          <p className="md:text-xs text-center text-lg mx-2 font-semibold">
+          <p className="md:text-xs w-[320px] md:max-w-full text-center text-lg mx-2 font-semibold">
             Our skilled team specializes in{" "}
             <span className="text-[#ff0000]">
               Web development, Digital Marketing, Company Registration,
@@ -125,7 +125,7 @@ const Approach = () => {
           </div>
         </div>
         {/*Nelson Mandela */}
-        <div className="relative gap-4 items-center px-10 rounded-xl flex-col mx-2 py-8 md:flex-row justify-center   flex md:mt-10 mb-32 md:w-[1000px] md:min-h-[200px]">
+        <div className="relative  gap-4 items-center px-10 rounded-xl flex-col mx-2 py-8 md:flex-row justify-center   flex md:mt-10 mb-32 w-[320px] md:w-[1000px] md:min-h-[200px]">
           <img
             src={nelsonmandela}
             alt="Nelson Mandela Statue"

@@ -30,15 +30,15 @@ const CompanyRegistration = () => {
             <p className="text-xs font-semibold">
               Your Business, Your Future, Launch Your Legacy
             </p>
-            <h1 className="text-[#ff0000] mb-12  text-4xl font-bold text-center">
+            <h1 className="text-[#ff0000] w-[320px] md:max-w-full mb-12  text-4xl font-bold text-center">
               Company Registration
             </h1>
-            <p className="text-xl font-semibold max-w-xl text-center">
+            <p className="text-xl font-semibold w-[320px] md:max-w-xl text-center">
               Do you need CIPC Company Registration in South Africa? Join
               thousands of happy Clients who register a Company successfully
               through us every month!
             </p>
-            <p className="md:text-xs max-w-4xl my-4 mx-4 ">
+            <p className="md:text-xs w-[320px] md:max-w-4xl my-4 mx-4 ">
               You can Register a Company at CIPC only for now and explore other
               start-up services later as your budget allows, OR get one of our
               Startup Packages with essential compliance services needed to
@@ -47,7 +47,7 @@ const CompanyRegistration = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center max-w-full min-h-screen justify-center">
+        <div className="flex flex-col items-center w-[320px] md:max-w-full mx-auto max-w-full min-h-screen justify-center">
           {/*New Company Reg & lady Holding  A Paper */}
           <div className="flex flex-col md:flex-row mb-20 items-center justify-center md:gap-32 gap-20">
             {/* Company Registration */}
@@ -87,7 +87,7 @@ const CompanyRegistration = () => {
             </div>
           </div>
           {/* Company registration in 1 Day */}
-          <div className=" rounded-lg  p-10 shadow-sm shadow-black/10  mx-2 flex flex-col md:flex-row mb-20 items-center justify-center md:gap-40 gap-20">
+          <div className=" rounded-lg  md:p-10 shadow-sm shadow-black/10  mx-2 flex flex-col md:flex-row mb-20 items-center justify-center md:gap-40 gap-20">
             {/*  Company Registration in 1 Day*/}
             <div className="flex flex-col items-center space-y-6  md:space-y-12">
               <h1
@@ -194,7 +194,9 @@ const CompanyRegistration = () => {
           {/* Testimonials */}
           {/* Testimonial Mapping */}
           <h1 className="text-2xl font-semibold mt-24">TESTIMONIALS</h1>
-          <p className="text-lg">Check Out What Our Customers Are Saying</p>
+          <p className="text-lg text-center w-[320px] md:max-w-full">
+            Check Out What Our Customers Are Saying
+          </p>
           <div className="grid md:grid-cols-4 gap-4 my-10 max-w-7xl">
             {testimonals.map((item, id) => (
               <div key={id}>
@@ -220,7 +222,7 @@ const CompanyRegistration = () => {
 
           {/* Youth Empowermwnt */}
           {/* Youth Lives Matters */}
-          <div className=" mx-4 group relative space-y-6 rounded-lg my-20 flex  flex-col text-center text-white items-center justify-center w-[400px] md:w-[1000px] h-[600px] md:h-[400px]">
+          <div className=" mx-4 group relative space-y-6 rounded-lg my-20 flex  flex-col text-center text-white items-center justify-center w-[330px] md:w-[1000px] h-[600px] md:h-[400px]">
             <img
               src={youth}
               alt="youth"
@@ -252,14 +254,14 @@ const CompanyRegistration = () => {
 
           {/* #becomeanentrepreneurtoday */}
           <div className="flex items-center  text-white flex-col md:flex-row bg-[#ff0000] mb-20 md:space-x-20 py-4 md:px-20 px-8 space-y-8 md:space-y-0 rounded-lg  justify-around">
-            <h3 className="text-2xl text-center font-semibold">
+            <h3 className="md:text-2xl text-center font-semibold">
               #becomeanentrepreneurtoday
             </h3>
             <Link
               to="register"
               smooth={true}
               duration={500}
-              className="p-4 text-xl text-center rounded-lg border-2  hover:bg-white duration-300 ease-in-out cursor-pointer hover:text-[#ff0000]"
+              className="p-4 md:text-xl text-center rounded-lg border-2  hover:bg-white duration-300 ease-in-out cursor-pointer hover:text-[#ff0000]"
             >
               START YOUR JOURNEY TODAY
             </Link>
@@ -267,11 +269,11 @@ const CompanyRegistration = () => {
 
           {/* Hurry Up & Get Started today */}
           <div className="flex flex-col items-center space-y-3 mb-20">
-            <p className="md:text-xs">
+            <p className="md:text-xs text-center">
               {" "}
               Are You Prepared To Bring Your Dream To Earth?
             </p>
-            <h2 className="md:text-2xl text-3xl font-semibold ">
+            <h2 className="md:text-2xl text-xl font-semibold ">
               Hurry Up And Start Today
             </h2>
             <Link

@@ -17,7 +17,7 @@ const Featured = () => {
         <div className="grid md:grid-cols-4 gap-4 my-10">
           {featured.map((item, id) => (
             <div key={id}>
-              <div className="relative  flex items-end justify-center rounded-lg hover:scale-125 hover:z-10 duration-300 ease-in-out w-[350px] md:w-[300px] md:h-[200px] h-[300px]">
+              <div className="relative  flex items-end justify-center rounded-lg md:hover:scale-125 hover:z-10 duration-300 ease-in-out w-[320px] md:w-[300px] md:h-[200px] h-[300px]">
                 <img
                   src={item.backgroundImage}
                   alt="background image"
@@ -62,7 +62,7 @@ const Featured = () => {
         </div>
 
         {/* Youth Lives Matters */}
-        <div className=" mx-4 group relative space-y-6 rounded-lg my-20 flex  flex-col text-center text-white items-center justify-center w-[400px] md:w-[1000px] h-[600px] md:h-[400px]">
+        <div className=" mx-4 group relative space-y-6 rounded-lg my-20 flex  flex-col text-center text-white items-center justify-center w-[320px] md:w-[1000px] h-[600px] md:h-[400px]">
           <img
             src={youth}
             alt="youth"
@@ -93,14 +93,14 @@ const Featured = () => {
 
         {/* #becomeanentrepreneurtoday */}
         <div className="flex items-center  text-white flex-col md:flex-row bg-[#ff0000] mb-20 md:space-x-20 py-4 md:px-20 px-8 space-y-8 md:space-y-0 rounded-lg  justify-around">
-          <h3 className="text-2xl text-center font-semibold">
+          <h3 className="md:text-2xl text-center font-semibold">
             #becomeanentrepreneurtoday
           </h3>
           <Link
             to="footer"
             duration={1000}
             smooth={true}
-            className="p-4 text-xl text-center rounded-lg border-2  hover:bg-white duration-300 ease-in-out cursor-pointer hover:text-[#ff0000]"
+            className="p-4 md:text-xl text-center rounded-lg border-2  hover:bg-white duration-300 ease-in-out cursor-pointer hover:text-[#ff0000]"
           >
             START YOUR JOURNEY TODAY
           </Link>
@@ -112,7 +112,7 @@ const Featured = () => {
             {" "}
             Are You Prepared To Bring Your Dream To Earth?
           </p>
-          <h2 className="md:text-2xl text-3xl font-semibold ">
+          <h2 className="md:text-2xl text-xl font-semibold ">
             Hurry Up And Start Today
           </h2>
           <Link

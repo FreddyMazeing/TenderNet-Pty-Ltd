@@ -10,8 +10,8 @@ import whatsup from "../assets/whatsup.png";
 
 const Footer = () => {
   return (
-    <footer className="max-w-full min-h-screen text-[#141414] bg-[#323431]">
-      <div className="max-w-full min-h-screen mx-2 flex flex-col items-center  justify-between pt-20 pb-10 ">
+    <footer className="max-w-full  min-h-screen text-[#141414] bg-[#323431]">
+      <div className="max-w-full min-h-screen w-[320px] md:max-w-full mx-auto flex flex-col items-center  justify-between pt-20 pb-10 ">
         {/* Make a Lasting Impact */}
         <div className="grid md:grid-cols-2 gap-20  md:gap-72">
           <div className="flex flex-col text-center">
@@ -22,8 +22,8 @@ const Footer = () => {
               TenderNet We Are Here For You
             </p>
           </div>
-          <div className="bg-[#ff0000] rounded-2xl text-white text-center flex flex-col items-center py-2 px-4 space-y-6 md:space-y-3 ">
-            <h1 className="text-2xl font-semibold">
+          <div className="bg-[#ff0000] rounded-2xl text-white text-center flex flex-col items-center py-2 px-1 space-y-6 md:space-y-3 ">
+            <h1 className="md:text-2xl font-semibold">
               Be The First To Know About Our Specials
             </h1>
             <form

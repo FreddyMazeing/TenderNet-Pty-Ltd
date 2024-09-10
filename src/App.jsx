@@ -4,7 +4,7 @@ import HeroSection from "./components/HeroSection";
 import Approach from "./components/Approach";
 import Featured from "./components/Featured";
 import Footer from "./components/Footer";
-import DropDown from "./components/DropDown";
+import { Analytics } from "@vercel/analytics/react"
 
 const App = () => {
   return (
