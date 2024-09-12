@@ -44,7 +44,7 @@ const BusinessCompliance = () => {
             <h1 className="text-[#ff0000] mb-12  text-4xl font-bold text-center">
               Business Compliance
             </h1>
-            <p className="text-xl font-semibold max-w-xl text-center">
+            <p className="md:text-xs text-[#ff0000] font-semibold max-w-xl text-center">
               TenderNet empowers South African entrepreneurs by helping them
               establish, grow, and sustain their businesses.
             </p>
@@ -55,7 +55,7 @@ const BusinessCompliance = () => {
               duration={500}
               className=" flex items-center space-x-4 text-lg font-semibold border-2 px-6 rounded-full border-[#ff0000] hover:text-white duration-200 ease-in-out cursor-pointer hover:tracking-wider  hover:bg-[#ff0000]   mt-10"
             >
-              <h1>Funding</h1>
+              <h1 className="text-sm">Funding</h1>
               <FaArrowRightLong className="hover:rotate-90 duration-200 ease-in-out " />
             </Link>
           </div>

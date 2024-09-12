@@ -42,11 +42,11 @@ const WebDevelopment = () => {
             <p className="text-xl font-semibold max-w-xl text-center">
               Google Patnership
             </p>
-            <p className="md:text-xs md:max-w-4xl w-[320px] mb-4 mx-4  font-semibold text-[#ff0000]">
+            <p className="md:text-xs md:w-full w-[320px] mb-4 mx-4  font-semibold text-[#ff0000]">
               Elevate Your Brand with Targeted Social Media Marketing and Google
               Ads
             </p>
-            <p className="md:text-xs md:max-w-xl w-[320px] my-4 mx-4  ">
+            <p className="md:text-xs md:w-1/2 w-[320px] my-4 mx-4  ">
               Web Development is a way to promote your brand or products using
               cusom displayo .We create websites that connect to your{" "}
               <span className="text-[#ff0000]">
@@ -62,14 +62,14 @@ const WebDevelopment = () => {
               <span className="text-[#ff0000]">drive website traffic.</span>
             </p>
             <div className="rounded-full border-2 border-[#ff0000] mx-1  my-10 flex items-center justify-center md:gap-6">
-              <h1 className="md:text-lg p-2 font-semibold text-[#ff0000]">
+              <h1 className="md:text-lg p-2 text-xs font-semibold text-[#ff0000]">
                 Improved customer trust
               </h1>
               <Link
                 to="packages"
                 smooth={true}
                 duration={500}
-                className="md:text-lg cursor-pointer font-semibold duration-300 ease-in-out  hover:tracking-widest text-white md:p-2 px-4 py-4  bg-[#f00000] rounded-full text-center"
+                className="md:text-lg cursor-pointer text-xs  font-semibold duration-300 ease-in-out  hover:tracking-widest text-white md:p-2 px-4 py-4  bg-[#f00000] rounded-full text-center"
               >
                 Start Today
               </Link>
@@ -139,7 +139,9 @@ const WebDevelopment = () => {
                   <div className="absolute inset-0 flex items-center justify-center text-white font-semibold text-xl rounded-t-lg bg-[#ff0000] h-16 w-full">
                     <h1>{item.package}</h1>
                   </div>
-                  <h2 className="text-[#ff0000] font-bold">{item.payment}</h2>
+                  <h2 className="text-[#ff0000] font-bold pt-10 ">
+                    {item.payment}
+                  </h2>
                   <hr className="border-1 w-full border-[#ff0000] " />
                   <p className="md:text-sm font-semibold text-lg">{item.l1}</p>
                   <p className="md:text-sm font-semibold text-lg">{item.l2}</p>

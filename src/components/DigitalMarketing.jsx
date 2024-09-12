@@ -24,9 +24,9 @@ const DigitalMarketing = () => {
             />
           </div>
           {/* White Gradient */}
-          <div className="absolute inset-0 bg-gradient-to-t from-white to-white/80 z-10  "></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-white to-white/80 z-10 "></div>
 
-          <div className="z-20 flex flex-col items-center justify-center text-center">
+          <div className="z-20 flex flex-col items-center justify-center text-center md:pt-28 pt-10 ">
             <p className="text-xs font-semibold">
               Bringing Your <span className="text-[#ff0000]">Vision</span> to{" "}
               <span className="text-[#ff0000]">Life</span>
@@ -37,11 +37,11 @@ const DigitalMarketing = () => {
             <p className="text-xl font-semibold max-w-xl text-center">
               Google Patnership
             </p>
-            <p className="md:text-xs md:max-w-4xl w-[320px] mb-4 mx-4  font-semibold text-[#ff0000]">
+            <p className="md:text-xs md:w-full w-[320px] mb-4 mx-4  font-semibold text-[#ff0000]">
               Elevate Your Brand with Targeted Social Media Marketing and Google
               Ads
             </p>
-            <p className="md:text-xs w-[320px] md:max-w-xl my-4 mx-4  ">
+            <p className="md:text-xs w-[320px] md:w-1/2 my-4 mx-4  ">
               Social Media Marketing involves promoting a brand or product on
               social media platforms like{" "}
               <span className="text-[#ff0000]">
@@ -57,15 +57,15 @@ const DigitalMarketing = () => {
               <span className="text-[#ff0000]">drive website traffic.</span>
             </p>
 
-            <div className="rounded-full border-2 border-[#ff0000] mx-1 w-[320px]  my-10 flex items-center justify-center md:gap-6">
-              <h1 className="md:text-lg p-2 text-xs font-semibold text-[#ff0000]">
+            <div className="rounded-full border-2 border-[#ff0000] mx-1  w-[320px] md:w-1/4 py-2  my-10 flex items-center justify-center md:gap-6">
+              <h1 className=" p-2  text-xs font-semibold text-[#ff0000]">
                 Improved customer engagement
               </h1>
               <Link
                 to="packages"
                 smooth={true}
                 duration={500}
-                className="md:text-lg font-semibold cursor-pointer duration-300 ease-in-out  hover:tracking-widest text-white md:p-2 px-4 py-4  bg-[#f00000] rounded-full text-center"
+                className=" font-semibold text-sm cursor-pointer duration-300 ease-in-out  hover:tracking-widest text-white md:py-2 px-4 py-4  bg-[#f00000] rounded-full text-center"
               >
                 Start Today
               </Link>
@@ -79,7 +79,7 @@ const DigitalMarketing = () => {
           >
             Social Media Management Packages
           </h1>
-          <p className="md:text-xs  mx-4   text-center w-[320px] md:max-w-xl">
+          <p className="md:text-xs  mx-4   text-center w-[320px] md:w-2/5">
             Every firm requires a digital marketing strategy, TenderNet Social
             Media Management Packages are designed to speed up the recognition
             of your brand.Start today, cancel any time.
@@ -128,15 +128,10 @@ const DigitalMarketing = () => {
           <h1 className="text-xl font-semibold max-w-xl text-center">
             Our Happy Achiervements
           </h1>
-          <p className="md:text-xs w-[320px] max-w-4xl mb-4 mx-4  font-semibold text-[#ff0000] text-center">
+          <p className="md:text-xs w-[320px] md:w-full mb-4 mx-4  font-semibold text-[#ff0000] text-center">
             "Ready to elevate your social media presece? Let's dig in together"
           </p>
-          <div className="grid relative w-[320px] md:max-w-full  gap-6 my-10 md:grid-cols-3">
-            <div className="inset-0 absolute bg-black/10 border-t-2 border-b-2 text-white font-bold z-10 md:h-[50px]  top-1/2 items-center justify-between px-6 backdrop-blur-sm  hidden md:flex-row md:flex  ">
-              <h1 className="text-[#141414]">optimization</h1>
-              <h1 className="text-[#141414]">post likes</h1>
-              <h1 className="text-white">loyal customers</h1>
-            </div>
+          <div className="grid relative w-[320px] md:w-3/4  gap-6 my-10 md:grid-cols-3">
             <img
               src={like1}
               className="md:w-72 duration-300 ease-in-out  h-96 rounded-3xl object-cover hover:object-left-top shadow-black/20 shadow-md"

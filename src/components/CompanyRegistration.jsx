@@ -30,15 +30,15 @@ const CompanyRegistration = () => {
             <p className="text-xs font-semibold">
               Your Business, Your Future, Launch Your Legacy
             </p>
-            <h1 className="text-[#ff0000] w-[320px] md:max-w-full mb-12  text-4xl font-bold text-center">
+            <h1 className="text-[#ff0000] w-[320px] md:w-full mb-12  text-4xl font-bold text-center">
               Company Registration
             </h1>
-            <p className="text-xl font-semibold w-[320px] md:max-w-xl text-center">
+            <p className="text-xl font-semibold w-[320px] md:w-1/2 text-center">
               Do you need CIPC Company Registration in South Africa? Join
               thousands of happy Clients who register a Company successfully
-              through us every month!
+              through us every <span className="text-[#ff0000]">month!</span>
             </p>
-            <p className="md:text-xs w-[320px] md:max-w-4xl my-4 mx-4 ">
+            <p className="md:text-xs w-[320px] md:w-1/2 my-4 mx-4 ">
               You can Register a Company at CIPC only for now and explore other
               start-up services later as your budget allows, OR get one of our
               Startup Packages with essential compliance services needed to
@@ -47,7 +47,7 @@ const CompanyRegistration = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center w-[320px] md:max-w-full mx-auto max-w-full min-h-screen justify-center">
+        <div className="flex flex-col items-center w-[320px] md:w-full mx-auto max-w-full min-h-screen justify-center">
           {/*New Company Reg & lady Holding  A Paper */}
           <div className="flex flex-col md:flex-row mb-20 items-center justify-center md:gap-32 gap-20">
             {/* Company Registration */}
@@ -92,11 +92,11 @@ const CompanyRegistration = () => {
             <div className="flex flex-col items-center space-y-6  md:space-y-12">
               <h1
                 name="getStarted"
-                className="text-3xl font-bold max-w-52 text-center"
+                className="text-3xl font-bold max-w-52 md:max-w-full text-center"
               >
                 Company Registration in 1 Day
               </h1>
-              <p className="text-xl text-[#ff0000] max-w-64 text-center">
+              <p className="text-xl text-[#ff0000] max-w-64 md:max-w-full text-center">
                 Easy, Online Company Registration Package with Free Extras
                 Included!
               </p>
@@ -194,14 +194,14 @@ const CompanyRegistration = () => {
           {/* Testimonials */}
           {/* Testimonial Mapping */}
           <h1 className="text-2xl font-semibold mt-24">TESTIMONIALS</h1>
-          <p className="text-lg text-center w-[320px] md:max-w-full">
+          <p className="text-lg text-center w-[320px] md:w-full">
             Check Out What Our Customers Are Saying
           </p>
           <div className="grid md:grid-cols-4 gap-4 my-10 max-w-7xl">
             {testimonals.map((item, id) => (
               <div key={id}>
                 <div className="flex flex-col space-y-6">
-                  <div className="text-center shadow-md rounded-lg shadow-black/10 max-w-[200px]">
+                  <div className="text-center  shadow-md rounded-lg shadow-black/10 max-w-[200px]">
                     <p className="text-xs p-4">{item.testimonal}</p>
                   </div>
                   <div className="flex space-x-4 items-center">

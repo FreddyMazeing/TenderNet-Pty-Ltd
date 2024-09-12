@@ -11,7 +11,7 @@ import whatsup from "../assets/whatsup.png";
 const Footer = () => {
   return (
     <footer className="max-w-full  min-h-screen text-[#141414] bg-[#323431]">
-      <div className="max-w-full min-h-screen w-[320px] md:max-w-full mx-auto flex flex-col items-center  justify-between pt-20 pb-10 ">
+      <div className=" min-h-screen w-[320px]  md:w-full mx-auto flex flex-col items-center  justify-between pt-20 pb-10 ">
         {/* Make a Lasting Impact */}
         <div className="grid md:grid-cols-2 gap-20  md:gap-72">
           <div className="flex flex-col text-center">

@@ -21,11 +21,11 @@ const HeroSection = () => {
 
         {/* Main Text */}
         <div className="flex flex-col z-10 items-center justify-center ">
-          <h1 className="text-[#ff0000] my-6 w-[320px] md:max-w-3xl text-4xl font-bold text-center">
+          <h1 className="text-[#ff0000] my-6 w-[320px] md:w-8/12 text-4xl font-bold text-center">
             Are you ready to shoot into Entrepreneurship stardom and join the
             Forbes list?
           </h1>
-          <p className="mb-12 px-4 text-center font-bold w-[320px] md:max-w-3xl">
+          <p className="mb-12 px-4 text-center font-bold w-[320px] md:w-1/3">
             We are all about turning{" "}
             <span className="text-[#ff0000]">side hustles</span> into{" "}
             <span className="text-[#ff0000]">registered businesses</span>, and

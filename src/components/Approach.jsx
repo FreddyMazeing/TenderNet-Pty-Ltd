@@ -7,10 +7,10 @@ const Approach = () => {
   return (
     <div className="md:max-w-full  min-h-screen bg-white text-[#141414] ">
       <div className="max-w-full min-h-screen flex flex-col items-center justify-center">
-        <h2 className=" my-6 md:text-4xl w-[320px] md:max-w-full text-2xl text-center">
+        <h2 className=" my-6 md:text-4xl w-[320px] md:w-5/6 text-2xl text-center">
           Why You Should Choose TenderNet(Pty)Ltd?
         </h2>
-        <p className="text-lg mb-10 md:max-w-3xl w-[320px] text-center">
+        <p className="text-lg mb-10 md:w-2/5 w-[320px] text-center">
           Ten<span className="text-[#ff0000]">d</span>erNet consists of
           experienced individuals who are eager to carry you until you're listed
           in <span className="text-[#ff0000]">Africa Forbes</span>.
@@ -80,14 +80,15 @@ const Approach = () => {
         </div>
         {/* Skilled Personel At Tendernet Ltd */}
         <div className="flex flex-col items-center py-10 space-y-4">
-          <h1 className="font-semibold text-2xl text-center w-[320px] md:max-w-full">
+          <h1 className="font-semibold text-2xl text-center w-[320px] md:w-1/2">
             Skilled Personnels At Ten<span className="text-[#ff0000]">d</span>
             erNet(Pty)Ltd
           </h1>
-          <p className="md:text-xs w-[320px] md:max-w-full text-center text-lg mx-2 font-semibold">
+          <p className="md:text-xs w-[320px] md:w-3/5 text-center text-lg mx-2 font-semibold">
             Our skilled team specializes in{" "}
             <span className="text-[#ff0000]">
-              Web development, Digital Marketing, Company Registration,
+              Company Registration,Web development,Business Compliance, Digital
+              Marketing,
             </span>{" "}
             and <span className="text-[#ff0000]">Funding</span>. We deliver
             results for your business.
