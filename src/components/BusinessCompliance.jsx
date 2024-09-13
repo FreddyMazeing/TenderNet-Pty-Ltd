@@ -52,7 +52,7 @@ const BusinessCompliance = () => {
             <Link
               to="funding"
               smooth={true}
-              duration={500}
+              duration={100}
               className=" flex items-center space-x-4 text-lg font-semibold border-2 px-6 rounded-full border-[#ff0000] hover:text-white duration-200 ease-in-out cursor-pointer hover:tracking-wider  hover:bg-[#ff0000]   mt-10"
             >
               <h1 className="text-sm">Funding</h1>
@@ -326,7 +326,7 @@ const BusinessCompliance = () => {
           <Link
             to="apply"
             smooth={true}
-            duration={500}
+            duration={100}
             className="flex items-center cursor-pointer justify-center px-16 duration-200 ease-in-out hover:text-white hover:bg-[#ff0000] py-2 text-2xl font-semibold rounded-full border-2 border-[#ff0000] mb-10"
           >
             Apply
@@ -374,7 +374,7 @@ const BusinessCompliance = () => {
           <Link
             to="footer"
             smooth={true}
-            duration={1000}
+            duration={100}
             className="cursor-pointer  flex items-center justify-center py-2 text-xl md:text-sm px-4 hover:px-6 duration-200 gap-2 font-bold rounded-full hover:text-white border-2 hover:bg-[#ff0000] hover:border-[#ff0000] border-black"
           >
             <IoMdCall />

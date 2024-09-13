@@ -71,7 +71,7 @@ const CompanyRegistration = () => {
               <Link
                 to="getStarted"
                 smooth={true}
-                duration={500}
+                duration={100}
                 className="hover:bg-[#ff0000] cursor-pointer hover:text-white border-2 border-[#ff0000] font-semibold w-[200px] text-center rounded-full py-2"
               >
                 Register Now
@@ -260,7 +260,7 @@ const CompanyRegistration = () => {
             <Link
               to="register"
               smooth={true}
-              duration={500}
+              duration={100}
               className="p-4 md:text-xl text-center rounded-lg border-2  hover:bg-white duration-300 ease-in-out cursor-pointer hover:text-[#ff0000]"
             >
               START YOUR JOURNEY TODAY
@@ -278,7 +278,7 @@ const CompanyRegistration = () => {
             </h2>
             <Link
               to="footer"
-              duration={1000}
+              duration={100}
               smooth={true}
               className="flex cursor-pointer items-center py-2 text-xl md:text-sm px-4 hover:px-6 duration-200 gap-2 font-bold rounded-full hover:text-white border-2 hover:bg-[#ff0000] hover:border-[#ff0000] border-black"
             >

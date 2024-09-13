@@ -64,7 +64,7 @@ const DigitalMarketing = () => {
               <Link
                 to="packages"
                 smooth={true}
-                duration={500}
+                duration={100}
                 className=" font-semibold text-sm cursor-pointer duration-300 ease-in-out  hover:tracking-widest text-white md:py-2 px-4 py-4  bg-[#f00000] rounded-full text-center"
               >
                 Start Today
@@ -115,8 +115,8 @@ const DigitalMarketing = () => {
                   <Link
                     to="footer"
                     smooth={true}
-                    duration={1000}
-                    className="text-[#ff0000] cursor-pointer  rounded-full  px-4 py-2 font-semibold md:text-lg text-xl duration-200 ease-in-out cursor-pointer  hover:text-white hover:bg-[#ff0000] shadow-md  "
+                    duration={100}
+                    className="text-[#ff0000]   rounded-full  px-4 py-2 font-semibold md:text-lg text-xl duration-200 ease-in-out cursor-pointer  hover:text-white hover:bg-[#ff0000] shadow-md  "
                   >
                     {item.buttonText}
                   </Link>
@@ -161,7 +161,7 @@ const DigitalMarketing = () => {
             <Link
               to="footer"
               smooth={true}
-              duration={1000}
+              duration={100}
               className=" cursor-pointer flex items-center py-2 text-xl md:text-sm px-4 hover:px-6 duration-200 gap-2 font-bold rounded-full hover:text-white border-2 hover:bg-[#ff0000] hover:border-[#ff0000] border-black"
             >
               <IoMdCall />

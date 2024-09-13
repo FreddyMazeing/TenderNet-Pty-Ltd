@@ -152,7 +152,7 @@ const WebDevelopment = () => {
                   <Link
                     to="footer"
                     smooth={true}
-                    duration={1000}
+                    duration={100}
                     className="text-[#ff0000] rounded-full  px-4 py-2 font-semibold md:text-lg text-xl duration-200 ease-in-out cursor-pointer  hover:text-white hover:bg-[#ff0000] shadow-md  "
                   >
                     {item.buttonText}
@@ -227,7 +227,7 @@ const WebDevelopment = () => {
             <Link
               to="footer"
               smooth={true}
-              duration={1000}
+              duration={100}
               className="p-4 md:text-xl text-center rounded-lg border-2  hover:bg-white duration-300 ease-in-out cursor-pointer hover:text-[#ff0000]"
             >
               START YOUR JOURNEY TODAY
@@ -246,7 +246,7 @@ const WebDevelopment = () => {
             <Link
               to="footer"
               smooth={true}
-              duration={1000}
+              duration={100}
               className="cursor-pointer  flex items-center py-2 text-xl md:text-sm px-4 hover:px-6 duration-200 gap-2 font-bold rounded-full hover:text-white border-2 hover:bg-[#ff0000] hover:border-[#ff0000] border-black"
             >
               <IoMdCall />

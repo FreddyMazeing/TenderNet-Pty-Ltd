@@ -66,7 +66,7 @@ const Approach = () => {
                     {/* Button */}
                     <Link
                       to="footer"
-                      duration={1000}
+                      duration={100}
                       smooth={true}
                       className="text-lg text-center cursor-pointer   md:text-sm text-[#ff0000] hover:bg-[#ff0000] hover:text-white duration-300 ease-in-out shadow-md shadow-red-600/10 py-2 w-[200px] rounded-full"
                     >
