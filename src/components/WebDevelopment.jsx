@@ -128,7 +128,7 @@ const WebDevelopment = () => {
 
           {/* Web Development Packages */}
           <h1 className="text-2xl font-semibold mt-40">Web Packages</h1>
-          <p className="text-lg">
+          <p className="md:text-lg text-center text-base">
             It's now time for you to have your own website
           </p>
           {/* Looping Packages */}

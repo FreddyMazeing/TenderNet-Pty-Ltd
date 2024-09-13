@@ -298,7 +298,7 @@ const BusinessCompliance = () => {
               <div className="flex flex-col space-y-8 ">
                 {typesOfGrands.map((item, id) => (
                   <div key={id}>
-                    <div className="flex items-center md:text-xs py-2 font-semibold md:space-x-3 ">
+                    <div className="flex items-center text-sm md:text-xs py-2 font-semibold md:space-x-3 ">
                       <div>{item.point}</div>
                       <h2>{item.text}</h2>
                     </div>

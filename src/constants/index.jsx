@@ -163,7 +163,7 @@ export const testimonals = [
   {
     id: 2,
     testimonal:
-      "I started my small baking business as a hobby, but with TenderNet's guidance, I turned it into a thriving akery. They helped me navigate the legal and financial complexities, and now I'm on track to expand my business and reach new customers.",
+      "I was struggling to get my new tech startup off the ground. TenderNet provided invaluable assistance with securing funding, developing a robust website, and building a strong online presence. Their team was incredibly supportive and knowledgeable, and I'm now well-positioned for growth.",
     profilePic: testimonial2,
     name: " A Lumberg",
     position: "San-City",
@@ -172,7 +172,7 @@ export const testimonals = [
   {
     id: 3,
     testimonal:
-      "I started my small baking business as a hobby, but with TenderNet's guidance, I turned it into a thriving akery. They helped me navigate the legal and financial complexities, and now I'm on track to expand my business and reach new customers.",
+      "As a non-profit, we faced challenges raising funds and reaching our target audience. TenderNet's expertise in grant writing and social media management was instrumental in expanding our reach and securing the resources we needed to continue our mission",
     profilePic: testimonial3,
     name: "T. Ntuli ",
     position: "Jorguer",
@@ -181,7 +181,7 @@ export const testimonals = [
   {
     id: 4,
     testimonal:
-      "I started my small baking business as a hobby, but with TenderNet's guidance, I turned it into a thriving akery. They helped me navigate the legal and financial complexities, and now I'm on track to expand my business and reach new customers.",
+      "I had a great business idea but lacked the knowledge to bring it to life. TenderNet guided me through the entire process, from company registration to securing funding and developing a comprehensive business plan. Their support has been invaluable, and I'm excited to see where my venture goes.",
     profilePic: testimonial4,
     name: "F. Ncube",
     position: "Pundreth ",

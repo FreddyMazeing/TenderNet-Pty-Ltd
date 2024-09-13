@@ -40,25 +40,29 @@ const Approach = () => {
                   <div className="flex flex-col items-center md:mx-4 mx-8 my-10">
                     {/* First Tittle & description */}
                     <div className="flex flex-col items-center ">
-                      <h1 className="md:text-xs text-xl">{item.fistTittle}</h1>
-                      <h2 className="md:text-xs text-lg font-light">
+                      <h1 className="md:text-xs text-center text-xl">
+                        {item.fistTittle}
+                      </h1>
+                      <h2 className="md:text-xs text-center  font-light">
                         {item.firstDescription}
                       </h2>
                     </div>
                     {/* Second Tittle & description */}
                     <div className="flex flex-col items-center my-6">
-                      <h1 className="md:text-xs text-xl">
+                      <h1 className="md:text-xs text-center text-xl">
                         {item.secondTittle}
                       </h1>
-                      <h2 className="md:text-xs text-lg font-light">
+                      <h2 className="md:text-xs text-lg text-center font-light">
                         {item.secondDescription}
                       </h2>
                     </div>
 
                     {/* Second Tittle & description */}
                     <div className="flex flex-col items-center my-6">
-                      <h1 className="md:text-xs text-xl">{item.thirdTittle}</h1>
-                      <h2 className="md:text-xs text-lg font-light">
+                      <h1 className="md:text-xs text-center text-xl">
+                        {item.thirdTittle}
+                      </h1>
+                      <h2 className="md:text-xs text-lg text-center font-light">
                         {item.thirdDescription}
                       </h2>
                     </div>
