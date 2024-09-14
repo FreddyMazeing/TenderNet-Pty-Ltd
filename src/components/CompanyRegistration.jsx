@@ -51,7 +51,7 @@ const CompanyRegistration = () => {
           {/*New Company Reg & lady Holding  A Paper */}
           <div className="flex flex-col md:flex-row mb-20 items-center justify-center md:gap-32 gap-20">
             {/* Company Registration */}
-            <div className="flex flex-col items-start rounded-lg  shadow-md p-4 space-y-6">
+            <div className="flex flex-col items-start rounded-xl   shadow-lg shadow-black/10 p-4 space-y-6">
               <h1 className="font-semibold text-xl">
                 New Company Registration
               </h1>

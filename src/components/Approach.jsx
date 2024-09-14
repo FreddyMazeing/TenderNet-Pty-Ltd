@@ -30,7 +30,7 @@ const Approach = () => {
                   <h2 className="md:text-sm text-2xl ">{item.heading}</h2>
                 </div>
                 {/* Div Containng bgImage, Tittles, Descriptions & Button */}
-                <div className="flex flex-col   shadow-md shadow-black/5 ">
+                <div className="flex flex-col rounded-xl   shadow-lg shadow-black/10 ">
                   <img
                     src={item.backgroundImage}
                     alt="background image"

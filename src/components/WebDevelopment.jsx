@@ -135,7 +135,7 @@ const WebDevelopment = () => {
           <div className="grid md:grid-cols-3 my-10 gap-10 mx-6">
             {webPackages.map((item, id) => (
               <div key={id}>
-                <div className="relative rounded-lg flex flex-col space-y-6 items-center md:w-[300px] w-[350px]   justify-center shadow-md shadow-black/10 p-4">
+                <div className="relative rounded-lg flex flex-col space-y-6 items-center md:w-[300px] w-[350px]   justify-center rounded-xl   shadow-lg shadow-black/10 p-4">
                   <div className="absolute inset-0 flex items-center justify-center text-white font-semibold text-xl rounded-t-lg bg-[#ff0000] h-16 w-full">
                     <h1>{item.package}</h1>
                   </div>
