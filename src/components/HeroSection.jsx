@@ -17,7 +17,7 @@ const HeroSection = () => {
           />
         </div>
         {/* White Gradient */}
-        <div className="absolute inset-0 bg-gradient-to-t from-white to-white/80  "></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-white to-white/60 md:to-white/80  "></div>
 
         {/* Main Text */}
         <div className="flex flex-col z-10 items-center justify-center ">
@@ -57,31 +57,31 @@ const HeroSection = () => {
             <div className="grid grid-cols-2 font-sans font-semibold text-sm   md:grid-cols-5 md:text-center  gap-10 ">
               <Link
                 to="/companyRegistration"
-                className="hover:text-[#ff0000] duration-300 ease-in-out hover:tracking-wide cursor-pointer"
+                className="text-[#ff0000] hover:text-blue-600 duration-300 ease-in-out hover:tracking-wide cursor-pointer"
               >
                 Company Registration
               </Link>
               <Link
                 to="/webdev"
-                className="hover:text-[#ff0000] duration-300 ease-in-out hover:tracking-wide cursor-pointer"
+                className="text-[#ff0000] hover:text-blue-600 duration-300 ease-in-out hover:tracking-wide cursor-pointer"
               >
                 Web development
               </Link>
               <Link
                 to="/digitalMarketing"
-                className="hover:text-[#ff0000] duration-300 ease-in-out hover:tracking-wide cursor-pointer"
+                className="text-[#ff0000] hover:text-blue-600 duration-300 ease-in-out hover:tracking-wide cursor-pointer"
               >
                 Digital Marketing
               </Link>
               <Link
                 to="/businessCompliance"
-                className="hover:text-[#ff0000] duration-300 ease-in-out hover:tracking-wide cursor-pointer"
+                className="text-[#ff0000] hover:text-blue-600 duration-300 ease-in-out hover:tracking-wide cursor-pointer"
               >
                 Funding
               </Link>
               <Link
                 to="/businessCompliance"
-                className="hover:text-[#ff0000]  duration-300 ease-in-out hover:tracking-wide cursor-pointer"
+                className="text-[#ff0000] hover:text-blue-600  duration-300 ease-in-out hover:tracking-wide cursor-pointer"
               >
                 {" "}
                 Business Compliance

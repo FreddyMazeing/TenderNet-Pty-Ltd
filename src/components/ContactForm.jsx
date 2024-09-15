@@ -14,7 +14,7 @@ const ContactForm = () => {
   return (
     <>
       <Navbar />
-      <div className="max-w-full min-h-screen text-[#141414] flex items-center justify-between  bg-[#ff0000] font-sans ">
+      <div className="max-w-full min-h-screen text-[#141414] flex items-center justify-between  bg-[#141414] font-sans ">
         <div className="grid md:grid-cols-2 md:mx-auto mx-4 gap-28 my-10">
           {/* Text */}
           <div className="  flex flex-col  items-start justify-center text-start">
@@ -32,10 +32,10 @@ const ContactForm = () => {
             </div>
 
             {/*  Contacts */}
-            <div className="flex flex-col my-4  gap-2 items-start justify-center">
+            <div className="flex flex-col my-4  gap-6 items-start justify-center">
               {/* Contact */}
               <div className="flex items-center text-white gap-2 ">
-                <IoIosCall className="text-blue-800" />
+                <IoIosCall className="text-[#ff0000]" />
                 <a
                   href="tel:+27 78 135 1373"
                   className="hover:text-blue-800/50 duration-500 ease-in"
@@ -45,7 +45,7 @@ const ContactForm = () => {
               </div>
               {/* Email */}
               <div className="flex items-center text-white gap-2 ">
-                <MdEmail className="text-blue-800" />
+                <MdEmail className="text-[#ff0000]" />
                 <a
                   href="mailto:info@tendernet.co.za"
                   className="hover:text-blue-800/50 duration-500 ease-in"
@@ -55,12 +55,12 @@ const ContactForm = () => {
               </div>
               {/* Location */}
               <div className="flex items-center text-white gap-2 ">
-                <CiLocationOn className="text-blue-800" />
+                <CiLocationOn className="text-[#ff0000]" />
                 <h1>119 Augusta Rd, Rewlatch, Johannesburg South, Gauteng </h1>
               </div>
               {/* LinkedIn */}
               <div className="flex items-center text-white gap-2 ">
-                <FaLinkedin className="text-blue-800" />
+                <FaLinkedin className="text-[#ff0000]" />
                 <a
                   href="https://www.linkedin.com/company/tendernetpty/?viewAsMember=true"
                   target="_blank"
@@ -71,7 +71,7 @@ const ContactForm = () => {
               </div>
               {/* Location */}
               <div className="flex items-center  text-white gap-2 ">
-                <CiInstagram className="text-blue-800" />
+                <CiInstagram className="text-[#ff0000]" />
                 <a
                   href="https://www.instagram.com/tendernet_official/"
                   target="_blank"
@@ -82,7 +82,7 @@ const ContactForm = () => {
               </div>
               {/* Location */}
               <div className="flex items-center  text-white gap-2 ">
-                <FaWhatsapp className="text-blue-800" />
+                <FaWhatsapp className="text-[#ff0000]" />
                 <a
                   href="whatsapp://send?phone=+27781351373"
                   target="_blank"
@@ -93,7 +93,7 @@ const ContactForm = () => {
               </div>
               {/* Location */}
               <div className="flex items-center  text-white gap-2 ">
-                <FaFacebookF className="text-blue-800" />
+                <FaFacebookF className="text-[#ff0000]" />
                 <a
                   href="https://www.facebook.com/tendernetsystems/"
                   target="_blank"
@@ -194,7 +194,7 @@ const ContactForm = () => {
               <div className="flex items-center mt-4  justify-center">
                 <button
                   type="submit"
-                  className="bg-blue-800 px-10 w-full hover:text-[#ff0000]/50 font-semibold rounded-3xl py-1"
+                  className="bg-blue-800 px-10 w-full hover:bg-[#ff0000] font-semibold rounded-3xl py-1"
                 >
                   Submit
                 </button>

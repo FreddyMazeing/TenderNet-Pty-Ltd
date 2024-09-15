@@ -57,7 +57,7 @@ const Navbar = () => {
         {/* Mobile Drawer */}
         <div className="md:hidden sm:flex flex-col justify-end z-50">
           <button onClick={toggleNavBar}>
-            {mobileDrawerOpen ? <ImMenu /> : <AiOutlineClose />}
+            {mobileDrawerOpen ? <AiOutlineClose /> : <ImMenu />}
           </button>
         </div>
       </div>
